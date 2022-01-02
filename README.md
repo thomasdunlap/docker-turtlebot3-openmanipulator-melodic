@@ -1,8 +1,14 @@
-# ROS-Medodic Docker Container with TurboVNC
+# Turtlebot3 with Open Manipulator ROS-Melodic Docker Container with TurboVNC
 
-## *Adapted from Stanford Robot Autonomy I Container Repo*
+The motivation for this is to provide ROS containerization, so developers can work on ROS projects regardless of their OS.  This repo is adapted from the [Stanford Priciples of Robot Autonomy I](https://github.com/PrinciplesofRobotAutonomy/aa274-docker) ROS Kinetic Docker Container. 
 
-## Linux
+## Set Up
+
+### Docker Install
+
+If you already have docker installed, skip to [ROS Setup](#ros-setup).
+
+#### Linux
 
 1. Install Docker.
 ```
@@ -10,7 +16,7 @@
 ```
 2. Restart computer.
 
-## Mac
+#### Mac
 
 1. Install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) (not Docker Toolbox):
 [https://download.docker.com/mac/stable/Docker.dmg](https://download.docker.com/mac/stable/Docker.dmg)
@@ -22,12 +28,12 @@ XQuartz > Preferences > Security > Allow connections from network clients
 4. Install [TurboVNC](https://sourceforge.net/projects/turbovnc/files/).
 5. Run Docker.
 
-## Windows
+#### Windows
 
 Partner up with a student with a Mac or Ubuntu laptop, or use the VM provided
 last year: [VM Install Guide](https://docs.google.com/document/d/1ley_pauriyx0PrH8XYfkIrZwXnL3s-xBQvcUY6RE02I/edit?usp=sharing)
 
-# ROS Setup
+### ROS Setup
 
 ```
 ./init_melodic.sh
