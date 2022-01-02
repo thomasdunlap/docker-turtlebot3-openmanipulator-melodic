@@ -1,6 +1,6 @@
 # ROS-Medodic Docker Container with TurboVNC
 
-## Adapted from Stanford Robot Autonomoy I Container
+## *Adapted from Stanford Robot Autonomy I Container Repo*
 
 ## Linux
 
