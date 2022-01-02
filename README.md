@@ -1,4 +1,4 @@
-# Turtlebot3 with Open Manipulator ROS-Melodic Docker Container with TurboVNC
+# Turtlebot3 with Open Manipulator Docker Image
 
 The motivation for this is to provide ROS containerization, so developers can work on ROS projects regardless of their OS.  This repo is adapted from the [Stanford Priciples of Robot Autonomy I](https://github.com/PrinciplesofRobotAutonomy/aa274-docker) ROS Kinetic Docker Container. 
 
